@@ -94,3 +94,6 @@ log-settings:
 - Регулярно проверяйте логи на подозрительные действия.
 - При смене групп в LuckPerms — игрок должен перезайти на сервер  
 (группа кэшируется при входе).
+
+<img width="1022" height="108" alt="Знімок_20260104_211109" src="https://github.com/user-attachments/assets/17946f18-4e6b-4dce-a4ba-5c2a1baa1a7e" />
+<img width="671" height="560" alt="Знімок_20260104_214315" src="https://github.com/user-attachments/assets/2d4c4c7e-df8b-47cd-a825-87e67432a090" />
