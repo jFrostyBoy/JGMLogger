@@ -1,0 +1,33 @@
+# Включение/отключение отдельных типов логирования
+log:
+  gamemode-change: true     # Логировать смену игрового режима
+  creative-take: true       # Логировать взятие предметов из креативного меню
+  block-place: true         # Логировать установку блоков из креатива в мир
+  container-place: true     # Логировать помещение предметов из креатива в контейнеры
+  dropper-sent: true        # Логировать сброс (передачу) предметов из креатива другому игроку (со стороны отправителя)
+  receiver-got: true        # Логировать получение предметов из креатива (со стороны получателя)
+
+# Сообщения для команд (поддерживают цветовые коды &)
+messages:
+  no-permission: "&cНедостаточно &fправ для использования команды"
+  reload: "&fПлагин успешно &aперезагружен"
+
+# Шаблоны сообщений, которые записываются в логи игроков
+log-messages-templates:
+  gamemode-change: "Вошёл в режим: %gamemode%"
+  creative-take: "В режиме CREATIVE взял х%amount% %material%"
+  block-place: "Установил %material% взятый с CREATIVE на координатах %x% %y% %z%"
+  container-place: "Положил х%amount% %material% взятых с CREATIVE в %container% на координатах %coords%"
+  dropper-sent: "Сбросил игроку %receiver% х%amount% %material% взятых с CREATIVE"
+  receiver-got: "Получил от %sender% х%amount% %material% взятых с CREATIVE"
+
+# Настройки, кто именно будет логироваться
+log-settings:
+  # Список конкретных игроков
+  # Пример: log-players: ['Johny', 'Rey', 'Alex']
+  log-players: []
+  # Список групп LuckPerms
+  # Пример: log-groups: ['admin', 'sponsor', 'vip']
+  log-groups: []
+  # Логировать всех игроков (если группы и список ников пустые)
+  log-all-players: false

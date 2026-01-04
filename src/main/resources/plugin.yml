@@ -1,0 +1,17 @@
+name: JGMLogger
+version: '${project.version}'
+main: jfbdev.jgmlogger.JGMLogger
+api-version: '1.16'
+authors: [ jFrostyBoy ]
+description: Логирование взаимодействий игроков в режиме креатива
+softdepend: [LuckPerms]
+folia-supported: true
+
+commands:
+  gmlreload:
+    description: Перезагрузка плагина
+    permission: jgmlogger.admin
+
+permissions:
+  jgmlogger.admin:
+    default: op
